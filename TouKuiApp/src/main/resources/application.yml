@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://123.57.186.64:3306/toukuiinfo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/toukuiinfo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+
+    username: root
+    password: ****
+server:
+  port: 8080
+#  address: 192.168.133.46
+#  address: 10.223.143.49
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml  # 加 classpath*: 避免路径扫描不到
+  type-aliases-package: com.Toukui.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+# 微信小程序配置（替换为你的小程序信息）
+wx:
+
+    appid: ****
+    secret:  **** # 从小程序后台获取（登录https://mp.weixin.qq.com/ → 开发 → 开发设置）
+    code2session-url: https://api.weixin.qq.com/sns/jscode2session
+
+# JWT配置
+jwt:
+  secret:  ****  # 32字节（64位十六进制）
+  expiration: 86400000  # token有效期（24小时，单位：毫秒）

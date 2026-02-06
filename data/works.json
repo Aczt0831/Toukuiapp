@@ -1,0 +1,35 @@
+[
+  {
+    "zpid": 1,
+    "userid": "1",
+    "username": "头盔管理员",
+    "title": "测试作品1",
+    "content": "这是第一个测试作品",
+    "image": "/uploads/test1.jpg",
+    "time": "2024-01-01 12:00:00",
+    "zpdz": 12,
+    "zppl": 0
+  },
+  {
+    "zpid": 2,
+    "userid": "2",
+    "username": "头盔sfWqh0rQ",
+    "title": "1",
+    "content": "1",
+    "image": "/uploads/default_zp.jpg",
+    "time": "2025/10/3 18:31:26",
+    "zpdz": 0,
+    "zppl": 0
+  },
+  {
+    "zpid": 3,
+    "userid": "2",
+    "username": "头盔sfWqh0rQ",
+    "title": "1",
+    "content": "1",
+    "image": "/uploads/default_zp.jpg",
+    "time": "2025/10/3 18:32:19",
+    "zpdz": 0,
+    "zppl": 0
+  }
+]

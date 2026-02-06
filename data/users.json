@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "account": "admin",
+    "password": "123456",
+    "username": "头盔管理员",
+    "stylelist": "这是一个测试账号",
+    "tximg": null
+  },
+  {
+    "id": "2",
+    "account": "111",
+    "password": "111",
+    "username": "头盔sfWqh0rQ",
+    "stylelist": "",
+    "tximg": null
+  },
+  {
+    "id": "3",
+    "account": "1",
+    "password": "1",
+    "username": "头盔Up0Zvh7i",
+    "stylelist": "",
+    "tximg": null
+  }
+]
